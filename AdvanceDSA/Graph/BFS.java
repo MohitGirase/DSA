@@ -31,5 +31,5 @@ public class BFS {
         return result;
     }
 
-    //S.C -> O(N) and T.C -> O(N + 2E)
+    //S.C -> O(N) and T.C -> O(N + 2E) and not O(N*2E)
 }

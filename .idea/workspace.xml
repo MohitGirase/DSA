@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e852e8-2336-4b51-8e27-ccc5bdeee429" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvanceDSA/Graph/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvanceDSA/Graph/ConnectedComponents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../E-Commerce Backend System" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../E-Commerce-Application" beforeDir="false" />
