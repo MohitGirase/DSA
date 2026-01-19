@@ -1,0 +1,25 @@
+
+A connected component in a graph is a maximal group of vertices where every vertex is reachable from every other vertex
+within that group through a path of edges, but no vertex in the component has a path to any vertex outside that group.
+Essentially, it's a self-contained "island" or subgraph within a potentially larger, disconnected graph, where you can
+get from any point to any other point inside it, but can't leave.
+
+Key Characteristics:
+
+Reachability: Any two nodes in the component are connected by a sequence of edges (a path).
+Maximality: You can't add any more vertices from the original graph to the component and keep it connected;
+it's the largest possible such group.
+
+Partitioning: All connected components together cover every vertex in the graph without any overlap, forming a complete
+partition of the graph's vertices.
+
+Disconnected Graphs: A graph can have one (if fully connected) or multiple connected components.
+
+Example:
+Imagine a graph with nodes {0, 1, 2, 3, 4}. If {0, 1, 2} have paths between them, and {3, 4} have paths between them,
+but there are no paths from {0, 1, 2} to {3, 4} (or vice versa), then:
+
+{0, 1, 2} is one connected component.
+{3, 4} is another connected component.
+
+https://www.geeksforgeeks.org/dsa/strongly-connected-components/
