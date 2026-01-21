@@ -37,7 +37,7 @@ Constraints:
 1 ≤ V ≤ 500 
 
 */
-public class NumberOFProvinces {
+public class NumberOfProvinces {
     public static int numProvinces(ArrayList<ArrayList<Integer>> adj, int V) {
         // code here
         boolean[] visited = new boolean[V+1];
