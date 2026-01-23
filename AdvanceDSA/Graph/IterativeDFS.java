@@ -1,7 +1,8 @@
 package AdvanceDSA.Graph;
 
-import java.util.*;
-
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Stack;
 
 public class IterativeDFS {
     public List<Integer> dfsInGraph(List<List<Integer>> adj, int start){
@@ -9,7 +10,7 @@ public class IterativeDFS {
         int n = adj.size();
         boolean[] visited = new boolean[n+1]; //1-based indexing -> n+1
 
-        Stack<Integer> stack = new Stack();
+        Stack<Integer> stack = new Stack<>();
         visited[start] = true;
         stack.push(start);
 
