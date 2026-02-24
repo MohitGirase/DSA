@@ -1,4 +1,4 @@
-package LeetCode_daily;
+package LeetCode_Daily;
 
 import java.util.PriorityQueue;
 
