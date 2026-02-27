@@ -44,15 +44,15 @@ s[0] == '1'
  */
 public class Medium_1404 {
     public int numSteps(String s) {
-        int steps = 0, carry = 0;
+        int ans = 0, car = 0;
         for(int i=s.length()-1; i>0; i--){
-            if((s.charAt(i) & 1) + carry == 1) {
-                steps += 2;
-                carry = 1;
+            if((s.charAt(i) & 1) + car == 1) {
+                ans += 2;
+                car = 1;
             }else{
-                steps += 1;
+                ans += 1;
             }
         }
-        return steps + carry;
+        return ans + car;
     }
 }
